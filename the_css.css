@@ -1,0 +1,63 @@
+body{margin: 0;padding:0}
+/* 上面的样式 */
+.frame_top{height: 150px; background: #232A34;
+    margin-top:0;margin-left:0;width:100%}
+
+    .frame_top font{text-align: right}
+
+.top_left{float:left;margin-left:0;height: 150px;width:66%;background：#232A34;
+     }
+        
+    .top_left h1{margin:1.5em 2em 1em 2.6em}
+    .top_left font{color: white;}
+
+.top_right{height:100px; margin:25px 3px 25px 0px ;
+    float:right;width:33%; background-color:#232A34}
+    .top_right ul{background: #232A34;list-style-type:none;
+        margin:4px 300px 4px 0;padding: 0}
+    .top_right a{background: yellow}
+    .top_right li{background:#1E3246;margin:2px 3px 3px 0px;}
+    li:hover{background: #46494C}
+    li:active{background: hotpink}
+    li:visited{background: red}
+    .top_right font{color:white;margin-left:15px}
+/* 下面主体内容的样式 */
+.frame_main{height:1300px;background: #2F3945}
+/* 左边 */
+.linktoproduce{
+    float: right;color:rgb(81, 96, 97);margin-right:4em
+}
+
+.main_left{height: 1200px;width:58.8%;float:left;background:#2F3945;
+    margin-left: 55px}
+        .left_frame1{height: 500px;background:rgb(202, 198, 187);
+            margin-top:45px}
+        .left_frame2{height: 273px;background: rgb(202, 198, 187)}
+        .left_frame3{height: 381px;background: rgb(202, 198, 187)}
+
+.title{positon:relative;display: inline-block;
+    background: rgb(202, 198, 187);margin:20px 0 0 20px}
+    .title h1{color:black;padding:0}1
+    .title h4{color:green;padding:0}
+
+.left_content img{float:left; position: relative; width:90px;
+    height:90px;border:1.5px solid rgb(136, 143, 140);margin:40px 0 0 40px}
+.left_content p{font-size:19px;margin:1.6em 3em 0 8.27em}
+.left_content hr{margin-left:9.7em }
+
+
+/* 右边 */
+.main_right{height: 1200px;width:35.2%;float: right;background: #2F3945;
+margin-top:45px}
+.main_right h1{color:rgb(226, 214, 214);margin:0px 0 0 20px;padding:0}
+.main_right hr{margin:15px 15px 20px 15px}
+.main_right_top img{float:left;position:relative;width: 150px;
+    height: 190px;margin:10px 0 0 20px}
+.main_right ul{list-style-type:none;}
+.main_right li{padding:0;margin:5px 0px 5px 0px;color:white}
+
+
+div.main_right_top {font-size:20px;padding:0;position:relative;
+    display: inline-block;background:#2F3945;}
+    .main_right_top p{position:relative;display:inling-block;
+        margin:9px 0 0 20px;color:white;padding:0}
